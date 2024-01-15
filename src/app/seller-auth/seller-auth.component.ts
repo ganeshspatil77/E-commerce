@@ -27,6 +27,8 @@ export class SellerAuthComponent implements OnInit {
 
   ngOnInit(): void {
     this.seller.RelodeSeller();
+    console.log("Learn Git");
+    
   }
 
 

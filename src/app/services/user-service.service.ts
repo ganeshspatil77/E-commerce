@@ -41,7 +41,6 @@ export class UserServiceService {
 
   userRelode() {
     if (localStorage.getItem('user')) {
-      console.log('Initial commit');
       this.router.navigateByUrl('/')
     }
   }
