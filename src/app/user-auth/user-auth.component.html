@@ -1,0 +1,24 @@
+<div class="user-auth">
+   <div class="user-signUp" *ngIf="toggleBetweenLoginSignUp == true">
+    <h1>User Sign Up</h1>
+    <form #userSignUp="ngForm" class="commom-form" (submit)="signUp(userSignUp.value)">
+        <input type="text" class="form-input" ngModel placeholder="Enter User name" name="name">
+        <input type="email" class="form-input" ngModel placeholder="Enter User email" name="email">
+        <input type="password" class="form-input" ngModel placeholder="Enter User password" name="password">
+        <button class="form-button">Sign Up</button>
+        <p>Already have an account? <a (click)="gotoLogin()">Click here</a></p>
+    </form>
+   </div>
+   <div class="user-Login" *ngIf="toggleBetweenLoginSignUp == false">
+    <h1>User Login</h1>
+    <form #userLogin="ngForm" class="commom-form" (submit)="logIn(userLogin.value)">
+        <p class="error">{{errorMsg}}</p>
+        <input type="email" #email="ngModel"  email class="form-input" ngModel placeholder="Enter User email" name="email" required>
+        <p class="valid-error" *ngIf="email.invalid && email.touched">Enter valid email</p>
+        <input type="password" #pass="ngModel"  minlength="4" maxlength="15" class="form-input"ngModel  placeholder="Enter User password" name="password" required>
+        <p class="valid-error" *ngIf="pass.invalid && pass.touched">Enter valid password</p>
+        <button class="form-button" [disabled]="userLogin.invalid">Log in</button>
+        <p>create an account? <a (click)="gotoSignUp()">Click here</a></p>
+    </form>
+   </div>
+</div>

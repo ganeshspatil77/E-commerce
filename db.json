@@ -1,0 +1,169 @@
+{
+  "seller": [
+    {
+      "name": "Ganesh",
+      "password": "ganesh@123",
+      "email": "ganesh@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "password": "1234567890",
+      "email": "peter@test.com",
+      "id": 2
+    },
+    {
+      "name": "hemant",
+      "password": "12345",
+      "email": "hemant@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Ganesh",
+      "password": "ganehs@123",
+      "email": "ganesh@gmail.com",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "i phone14",
+      "price": "80000",
+      "color": "blue",
+      "category": "mobile",
+      "description": "a apple product",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-storage-select-202207-pink?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1693064356519",
+      "id": 2
+    },
+    {
+      "name": "HP Laptop",
+      "price": "52000",
+      "color": "Sliver",
+      "category": "Laptop",
+      "description": "a HP product",
+      "image": "https://www.hp.com/ca-en/shop/Html/Merch/Images/c07961346_1750x1285.jpg",
+      "id": 3
+    },
+    {
+      "name": "Shoes",
+      "price": "3299",
+      "color": "Black",
+      "category": "FootWear",
+      "description": "A Puma Product",
+      "image": "https://5.imimg.com/data5/ANDROID/Default/2022/3/DK/EB/MD/91259944/product-jpeg-500x500.jpg",
+      "id": 4
+    },
+    {
+      "name": "Shirt",
+      "price": "2999",
+      "color": "white",
+      "category": "Garments",
+      "description": "A peter england product",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20230906/vVWa/64f80929afa4cf41f5b34d62/-473Wx593H-461119105-blue-MODEL.jpg",
+      "id": 5
+    },
+    {
+      "name": "HP Laptop",
+      "price": "52000",
+      "color": "Sliver",
+      "category": "Laptop",
+      "description": "a HP product",
+      "image": "https://www.hp.com/ca-en/shop/Html/Merch/Images/c07961346_1750x1285.jpg",
+      "id": 6
+    },
+    {
+      "name": "HP Laptop",
+      "price": "52000",
+      "color": "Sliver",
+      "category": "Laptop",
+      "description": "a HP product",
+      "image": "https://www.hp.com/ca-en/shop/Html/Merch/Images/c07961346_1750x1285.jpg",
+      "id": 7
+    },
+    {
+      "name": "HP Laptop",
+      "price": "52000",
+      "color": "Sliver",
+      "category": "Laptop",
+      "description": "a HP product",
+      "image": "https://www.hp.com/ca-en/shop/Html/Merch/Images/c07961346_1750x1285.jpg",
+      "id": 8
+    },
+    {
+      "name": "HP Laptop",
+      "price": "52000",
+      "color": "Sliver",
+      "category": "Laptop",
+      "description": "a HP product",
+      "image": "https://www.hp.com/ca-en/shop/Html/Merch/Images/c07961346_1750x1285.jpg",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "name": "peter",
+      "email": "peter@test.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "ganesh",
+      "email": "ganesh@gmail.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "hemant",
+      "email": "hemant@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "peter",
+      "email": "hemant@gmail.com",
+      "password": "qwedfghj",
+      "id": 4
+    },
+    {
+      "name": "peter",
+      "email": "hemant@gmail.com",
+      "password": "qswdfgh",
+      "id": 5
+    },
+    {
+      "email": "ganesh@gmail.com",
+      "password": "abc123",
+      "id": 6
+    },
+    {
+      "email": "peter@test.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "email": "peter@test.com",
+      "password": "12345",
+      "id": 8
+    },
+    {
+      "email": "peter@test.com",
+      "password": "12345",
+      "id": 9
+    },
+    {
+      "email": "ganesh@gmail.com",
+      "password": "abc123",
+      "id": 10
+    },
+    {
+      "email": "ganesh@gmail.com",
+      "password": "abc123",
+      "id": 11
+    },
+    {
+      "email": "ganesh@gmail.com",
+      "password": "abc123",
+      "id": 12
+    }
+  ]
+}

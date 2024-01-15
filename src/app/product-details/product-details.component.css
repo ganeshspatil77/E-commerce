@@ -1,0 +1,28 @@
+.product-item img{
+    width: 100%;
+    object-fit: contain;
+    width: 150px;
+}
+
+.product-item{
+    margin: 25px auto;
+    width: 700px;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+.product-details{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.quantity-group{
+    margin-top: 20px;
+}
+
+.quantity-group button{
+    padding: 10px;
+}
+
+.quantity-group input{
+    width: 50px;
+    padding: 10px;
+}
